@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head><title>Screenshot Diffs</title></head>
+<head>
+  <title>Screenshots</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; margin: 2rem; }
+    .terminal { margin: 2rem 0; }
+    img { max-width: 100%; border: 1px solid #ddd; border-radius: 8px; }
+    h1 { text-align: center; }
+    .container { max-width: 1200px; margin: 0 auto; }
+  </style>
+</head>
 <body>
-<h2>Screenshots, Master References, and Diffs</h2>
-<h3>foot</h3>
-<p><strong>New:</strong></p>
-<img src="images/screenshot-foot.png" alt="foot current">
-<p><strong>Master:</strong></p>
-<img src="images/reference-foot.png" alt="foot reference">
-<p><strong>Diff:</strong></p>
-<img src="diffs/diff-foot.png" alt="foot diff">
-<h3>kitty</h3>
-<p><strong>New:</strong></p>
-<img src="images/screenshot-kitty.png" alt="kitty current">
-<p><strong>Master:</strong></p>
-<img src="images/reference-kitty.png" alt="kitty reference">
-<p><strong>Diff:</strong></p>
-<img src="diffs/diff-kitty.png" alt="kitty diff">
-<h3>wezterm</h3>
-<p><strong>New:</strong></p>
-<img src="images/screenshot-wezterm.png" alt="wezterm current">
-<p><strong>Master:</strong></p>
-<img src="images/reference-wezterm.png" alt="wezterm reference">
-<p><strong>Diff:</strong></p>
-<img src="diffs/diff-wezterm.png" alt="wezterm diff">
-<h3>alacritty</h3>
-<p><strong>New:</strong></p>
-<img src="images/screenshot-alacritty.png" alt="alacritty current">
-<p><strong>Master:</strong></p>
-<img src="images/reference-alacritty.png" alt="alacritty reference">
-<p><strong>Diff:</strong></p>
-<img src="diffs/diff-alacritty.png" alt="alacritty diff">
+  <div class="container">
+    <h1>mdfried Terminal Screenshots</h1>
+    <p style="text-align: center; color: #666;">Screenshots from various terminal emulators</p>
+    <div class="terminal">
+      <h2 id="foot">foot</h2>
+      <img src="images/screenshot-foot.png" alt="foot screenshot">
+    </div>
+    <div class="terminal">
+      <h2 id="kitty">kitty</h2>
+      <img src="images/screenshot-kitty.png" alt="kitty screenshot">
+    </div>
+    <div class="terminal">
+      <h2 id="wezterm">wezterm</h2>
+      <img src="images/screenshot-wezterm.png" alt="wezterm screenshot">
+    </div>
+    <div class="terminal">
+      <h2 id="alacritty">alacritty</h2>
+      <img src="images/screenshot-alacritty.png" alt="alacritty screenshot">
+    </div>
+  </div>
 </body>
 </html>
